@@ -2,7 +2,7 @@ import { gql, useQuery } from "@apollo/client";
 import { useState } from "react";
 import { NewUserForm } from "./components/NewUserForm";
 
-const GET_USER = gql`
+export const GET_USER = gql`
   query {
     users {
       id
